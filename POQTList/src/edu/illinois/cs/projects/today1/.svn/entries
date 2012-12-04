@@ -1,0 +1,74 @@
+9
+
+dir
+9483
+https://subversion.ews.illinois.edu/svn/fa11-cs242/today1/POQTList/POQTList/src/edu/illinois/cs/projects/today1
+https://subversion.ews.illinois.edu/svn/fa11-cs242
+
+
+
+2012-02-15T00:30:30.514605Z
+9483
+today1
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ea9d695b-eb4d-4621-bff8-fd0bfb0fcc65
+
+POQTListConstants.java
+file
+
+
+
+
+2012-02-15T01:38:21.000000Z
+7a3e029d1f5546fd8007b4860ad44fb5
+2012-02-15T00:30:30.514605Z
+9483
+today1
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11268
+
+alarm
+dir
+
+database
+dir
+
+main
+dir
+
+task
+dir
+

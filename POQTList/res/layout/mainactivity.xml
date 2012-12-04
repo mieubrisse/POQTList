@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <TextView android:id="@+id/list_title"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentTop="true"
+    	android:text="Test text"
+    	android:ellipsize="marquee"
+    	android:marqueeRepeatLimit="marquee_forever"
+    	android:scrollHorizontally="true"
+    	android:textSize="26sp"
+    	android:gravity="center"
+    	android:padding="6sp"
+    	android:textStyle="italic" />
+	    
+	<Button android:id="@+id/add_task"
+		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:text="@string/button_text_add_task"
+	    android:textSize="16sp"
+	    android:layout_alignParentBottom="true"
+	    android:onClick="onAddTaskPress"
+	    android:layout_marginTop="4sp" />
+	    
+	<FrameLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_above="@id/add_task"
+		android:layout_below="@id/list_title"
+		android:padding="4sp"
+		android:background="#3A3A3A"
+		android:layout_marginLeft="4sp"
+		android:layout_marginRight="4sp" >
+		<ListView android:id="@android:id/list"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_gravity="top"
+			android:background="#000000"
+		    android:textFilterEnabled="true"
+		    android:fastScrollEnabled="true" />
+	</FrameLayout>
+
+
+</RelativeLayout>

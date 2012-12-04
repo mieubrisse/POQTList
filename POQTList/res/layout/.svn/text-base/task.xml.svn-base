@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:height="40sp"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:paddingTop="10sp"
+	android:paddingBottom="10sp"
+	android:paddingLeft="6sp"
+	android:paddingRight="6sp" >
+	
+	<TextView 		    
+		android:id="@+id/textview_task_description"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:ellipsize="marquee"
+		android:marqueeRepeatLimit="marquee_forever"
+		android:focusable="false"
+		android:gravity="center_horizontal|bottom"
+		android:textSize="20sp"
+		android:singleLine="true" />
+	 
+	<TextView
+		android:id="@+id/textview_task_duedate"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:ellipsize="marquee"
+		android:marqueeRepeatLimit="marquee_forever"
+		android:focusable="false"
+		android:layout_below="@id/textview_task_description"
+		android:gravity="center_horizontal|top" />
+		    
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/task_restore" android:title="@string/task_restore"></item><item android:title="@string/task_done" android:id="@+id/task_done"></item>
+    <item android:title="@string/task_edit" android:id="@+id/task_edit"></item>
+    <item android:title="@string/task_remove_from_list" android:id="@+id/task_remove_from_list"></item>
+    <item android:title="@string/task_add_to_lists" android:id="@+id/task_add_to_lists"></item>
+    <item android:title="@string/task_delete" android:id="@+id/task_delete"></item>
+    
+    
+</menu>

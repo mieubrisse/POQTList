@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/option_refresh" android:title="@string/option_refresh"></item>
+    <item android:id="@+id/option_add_tasklist" android:title="@string/option_add_tasklist"></item>
+    <item android:id="@+id/option_settings" android:title="@string/option_settings"></item>
+    <item android:id="@+id/option_edit_tasklist" android:title="@string/option_edit_tasklist"></item>
+    <item android:title="@string/option_delete_tasklist" android:id="@+id/option_delete_tasklist"></item>
+</menu>
